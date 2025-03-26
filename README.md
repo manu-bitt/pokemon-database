@@ -1,4 +1,4 @@
-# Pokémon Database
+# Pokepedia
 
 A responsive web application that fetches and displays data from the PokéAPI. The website categorizes Pokémon by their types and provides detailed information about each Pokémon.
 
