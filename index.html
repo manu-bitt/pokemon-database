@@ -10,6 +10,12 @@
 <body>
     <header>
         <h1>Pokémon Database</h1>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#pokemon-section">Home</a></li>
+                <li><a href="#about-section">About</a></li>
+            </ul>
+        </nav>
     </header>
 
     <nav class="type-nav">
@@ -56,10 +62,33 @@
             </div>
             <div class="cards-container" id="pokemon-container"></div>
         </section>
+
+        <section id="about-section">
+            <div class="about-container">
+                <div class="about-header">
+                    <h2>About Me</h2>
+                </div>
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="https://avatars.githubusercontent.com/u/manu-bitt" alt="Creator" class="creator-image">
+                    </div>
+                    <div class="about-text">
+                        <h3>Manu</h3>
+                        <p class="about-title">Full Stack Developer & Pokémon Enthusiast</p>
+                        <p>Hello! I'm Manu, the creator of this Pokémon Database. As a passionate web developer and lifelong Pokémon fan, I built this project to showcase my skills in front-end development while creating something useful for fellow Pokémon enthusiasts.</p>
+                        <p>This application was built using HTML, CSS, and JavaScript, fetching data directly from the PokéAPI. I've focused on creating a responsive, user-friendly interface that allows you to browse Pokémon by type and explore their stats and evolution chains.</p>
+                        <div class="social-links">
+                            <a href="https://github.com/manu-bitt" target="_blank" class="social-link"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="mailto:your-email@example.com" class="social-link"><i class="fas fa-envelope"></i> Contact Me</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
-        <p>Pokémon Database created with <a href="https://pokeapi.co/" target="_blank">PokéAPI</a></p>
+        <p>Pokémon Database created with <a href="https://pokeapi.co/" target="_blank">PokéAPI</a> by <a href="https://github.com/manu-bitt" target="_blank">Manu</a></p>
     </footer>
 
     <div class="modal" id="detail-modal">
